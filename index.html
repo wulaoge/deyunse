@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>德云色</title>
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/component.css" rel="stylesheet" type="text/css"  />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Farming Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<!-- //js -->
+</head>
+<body class="cbp-spmenu-push">
+	<!--banner-->
+	<div class="banner">
+		<!--header-->		
+		<div class="header">
+			<div class="container">	
+				<h3>&nbsp;</h3>
+				<div class="logo"></div>
+				<div class="top-nav">
+					<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+						<h3>菜单</h3>
+						<a href="index.html" class="active">主页</a>
+						<a href="about.html">图图</a>
+						<a href="about2.html">油油</a>
+						<a href="products.html">图照</a>
+						<a href="product2.html">卡照</a>
+                        <a href="product3.html">合体照</a>
+					</nav>
+					<div class="main buttonset">	
+							<!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
+							<button id="showRightPush"><img src="images/menu-icon.png" alt="菜单"/></button>
+							<!--<span class="menu"></span>-->
+					</div>
+					<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+					<script src="js/classie.js"></script>
+					<script>
+						var menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+						showRightPush = document.getElementById( 'showRightPush' ),
+						body = document.body;
+
+						showRightPush.onclick = function() {
+							classie.toggle( this, 'active' );
+							classie.toggle( body, 'cbp-spmenu-push-toleft' );
+							classie.toggle( menuRight, 'cbp-spmenu-open' );
+							disableOther( 'showRightPush' );
+						};
+
+						function disableOther( button ) {
+							if( button !== 'showRightPush' ) {
+								classie.toggle( showRightPush, 'disabled' );
+							}
+						}
+					</script>
+					<!-- /script-for-menu -->
+				</div>	
+			</div>
+		</div>
+		<!--//header-->
+		<div class="banner-text">	
+			<h1><font color="#060606" ><i>德云色本记</i></font></h1>
+			<p><font face="微软雅黑"color="#060606">亚龙者，重庆人也，字突。初起时，年二十二，戈戮于DNF。其爱子浩宇，镇江人也，字油。先为颗粒儿辣舞之金牌打手。二人遇彼于七煌，立德云色于斗鱼。突自诩为色长，封副色与油，遍传污，骚，油之道，集志同道合之徒，举为色友。</font></p>
+		</div>
+	</div>
+    	
+	<!--//banner-->
+	
+	<!--banner-bottom-->
+	<div class="banner-bottom">
+		<div class="container">	
+        <h3 class="title"></h3>
+			<p class="title"></p>
+            <div class="testi">
+		<div class="container">
+			<h3 class="title"><font color="red"><strong>大事件通知</strong></font></h3>
+			<p class="title"><font color="red" size="+3"><strong>直播，抽奖，活动通知（这木多图图，就问你怕不怕）</strong></font></p>			
+			<!-- banner-text Slider starts Here -->
+			<script src="js/responsiveslides.min.js"></script>
+			<script>
+				// You can also use "$(window).load(function() {"
+					$(function () {
+					// Slideshow 3
+						$("#slider3").responsiveSlides({
+						auto: true,
+						pager:true,
+						nav:false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});	
+				});
+			</script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>					
+						<p ><strong><font size="4" color="blue">直播时间为每周一（双排虐小朋友），周二，周四，周六（钻二皇帝系列）</font></strong></p>
+						<h4><font color="blue">直播</font> </h4>
+					</li>
+					<li>					
+					  <p><strong><font size="4"color="blue">抽奖通知：loading.........</font></strong></p>
+						<h4><font color="blue">抽奖 </font></h4>
+					</li>
+					<li>					
+						<p><strong><font size="4"color="blue">商业活动，水友赛等：loading</font></strong></p>
+						<h4><font color="blue">活动 </font></h4>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>s
+        <div class="team">
+				<h3>组织成员</h3>
+		  <div class="team-info">
+					<div class="col-md-3 team-grids">
+						<a href="about.html">
+							<img src="images/img3.jpg" alt="" width="319" height="408" class="img-responsive">
+							<div class="captn">
+							  <h4>突</h4>
+								<p>&nbsp;</p>
+                                <p align="center">孙亚龙</p>
+                                <p align="center">出生日期:1988年3月24日</p> 
+                                <p align="center">职    业:职业游戏玩家、游戏解说 </p>
+                                <p align="center">游戏项目：地下城与勇士，英雄联盟</p>
+                                <p align="center">曾效力队伍：CCM，IG</p>
+							</div>
+						</a>
+					</div>					
+					<div class="col-md-3 team-grids">
+						<a href="about2.html">
+							<img class="img-responsive" src="images/img4.jpg" alt="">
+							<div class="captn">
+								<h4>油</h4>
+                                <p>&nbsp;</p>
+								<p>李浩宇</p>
+                                <p>出生日期:1993年6月3日</p> 
+                                <p>职    业:职业游戏玩家、游戏解说 </p>
+                                <p>游戏项目：英雄联盟</p>
+                                <p>曾效力队伍：PE</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 team-grids">
+						<a href="http://weibo.com/u/5260771595">
+							<img class="img-responsive" src="images/img5.jpg" alt="">
+							<div class="captn">
+								<h4>惠惠</h4>
+								<p>&nbsp;</p>
+								<p>色长夫人</p>
+                                <p>出生日期:女人的秘密</p> 
+                                <p>职    业:在图图背后垂帘听政</p>
+                                
+                                
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 team-grids">
+						<a href="#">
+							<img class="img-responsive" src="images/img6.jpg" alt="">
+							<div class="captn">
+								<h4>小腿</h4>
+                                <p>&nbsp;</p>
+								<p>德云色金牌打手</p>
+                                <p>出生日期:不详</p> 
+                                <p>职    业:带妹，“狂演色长” </p>
+                                <p>游戏项目：英雄联盟</p>
+                                <p>功能：让女粉丝（虽然并没有）流水</p>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<!--//team-->
+		</div>
+	</div>
+     <div class="hm-about">
+		<div class="container">	
+			<div class="col-md-5 hm-about-left">
+				<img src="images/santiren.jpg" alt="">
+			</div>
+			<div class="col-md-7 hm-about-left">
+				<h3>三体版&middot;德云色</h3>
+				<p>&nbsp;&nbsp;色友联军为夺取保存在斗鱼tv上三体世界的信息，消灭地球三体组织，发动了“古筝计划”。色友将只有发丝十分之一的纳米丝植入网站，将网站切割成了四十多块，“古筝计划”大获全胜，联军总于拿到了多达20G的种子！......啊....三！体！の信！息！并解密了其中令人震惊的消息--原来在三体星上，一位丑陋的五五号监听员，无意间监听到一条来自地球的信息，为避免三体舰队的入侵 ,他向地球发送一条信息：“！！！！！快去看德云色直播！！！！！！”</p>
+				<p align="center"><a class="btn btn-1 btn-1d" href="http://www.douyutv.com/154537"> 拯救地球-->斗鱼直播房间 </a></p>
+			</div>				
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<div class="slid">
+		<div class="container">	
+			<h3 class="title">三人帮</h3>
+			<p class="title"></p>			
+			<div class="slid-row">
+				<div class="col-md-4 slid-grids">
+					<h4><font face="微软雅黑" >图图美照</h4>
+			
+					<a class="btn btn-1 btn-1d" href="products.html"> 开心的忘了自己是个突子 </a>
+				</div>
+				<div class="col-md-4 slid-grids">
+					<h4><font face="微软雅黑" >油子帅图</h4>
+					
+					<a class="btn btn-1 btn-1d" href="product2.html">开心的忘了自己是个胖子 </a>
+				</div>
+				<div class="col-md-4 slid-grids">
+					<h4><font face="微软雅黑" >搅基</h4>
+					
+					<a class="btn btn-1 btn-1d" href="product3.html"> 二人骚照 </a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--//slid-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-row">
+				<div class="col-md-4 footer-grids">
+					<h3>菜单</h3>					
+					<ul>
+						<li><a href="index.html">主页</a></li>
+						<li><a href="about.html">图图个人主页</a></li>
+						<li><a href="about2.html">卡子个人主页</a></li>
+						<li><a href="products.html">TU</a></li>
+						<li><a href="product2.html">YOU</a></li>
+                        <li><a href="product3.html">合体</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 footer-grids">
+					<h3>合作媒体链接</h3>
+					<ul>
+						<li><a href="http://tieba.baidu.com/f?kw=%E5%BE%B7%E4%BA%91%E8%89%B2&ie=utf-8">德云色贴吧.</a></li>
+						<li><a href="http://i.youku.com/u/UMjk1NDUzMzc1Mg==">德云色优酷</a></li>
+						<li><a href="http://www.acfun.tv/u/17453.aspx#area=post-history">爱神A站个人空间</a></li>
+						<li><a href="http://space.bilibili.com/8739477/#!/index">B站</a></li>
+						
+					</ul>
+				</div>
+				<div class="col-md-4 footer-grids">
+					<h2><a href="index.html"></a>德云色直播内容</h2>
+					<p>花式空大，直播套路，直播搞基，直播撸猫，直播掉分，直播飙歌，直播跳舞，捧哏逗哏，暗油秃头，水友赛，各类抽奖活动。 <p>
+       
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="container"><div class="footer-left">
+				<p>浙江工业大学网工制作@<a href="http://weibo.com/p/1005053853143091/home?from=page_100505&mod=TAB&is_all=1#_rnd1458472848758"/>陨石的孩子</p>	
+                
+			
+</body>
+</html>
